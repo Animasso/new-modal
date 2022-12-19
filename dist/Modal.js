@@ -25,7 +25,7 @@ function Modal(props) {
   return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("button", {
     className: "displayButton",
     onClick: function onClick() {
-      return toggleModal;
+      return toggleModal();
     }
   }, "OPEN"), modal ? /*#__PURE__*/_react.default.createElement("div", {
     className: "modal"
@@ -34,7 +34,7 @@ function Modal(props) {
   }, /*#__PURE__*/_react.default.createElement("h2", null, props.textModal), /*#__PURE__*/_react.default.createElement("button", {
     className: "close-modal",
     onClick: function onClick() {
-      return toggleModal;
+      return toggleModal();
     }
   }, "Close"))) : null);
 }

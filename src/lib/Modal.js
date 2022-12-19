@@ -7,9 +7,9 @@ function Modal(props) {
   };
   return (
     <>
-      <button className="displayButton" onClick={() => toggleModal()}>
+      {/* <button className="displayButton" onClick={() => toggleModal()}>
         OPEN
-      </button>
+      </button> */}
 
       {modal ? (
         <div className="modal">

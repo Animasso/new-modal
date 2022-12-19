@@ -9,7 +9,6 @@ function App(props) {
   };
   return (
     <>
-      <button onClick={() => toggleModal()}>OPEN</button>
       {modal ? (
         <div className="modal">
           <div className="modal-content">

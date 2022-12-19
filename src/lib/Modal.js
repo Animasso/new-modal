@@ -7,14 +7,19 @@ function Modal(props) {
   };
   return (
     <>
-      <div className="modal">
-        <div className="modal-content">
-          <h2>{props.textModal}</h2>
-          <button className="close-modal" onClick={() => toggleModal}>
-            Close
-          </button>
+      <button className="display" onClick={toggleModal}>
+        open
+      </button>
+      {modal ? (
+        <div className="modal">
+          <div className="modal-content">
+            <h2>{props.textModal}</h2>
+            <button className="close-modal" onClick={toggleModal}>
+              Close
+            </button>
+          </div>
         </div>
-      </div>
+      ) : null}
     </>
   );
 }

@@ -29,7 +29,7 @@ function Modal(props) {
   }, /*#__PURE__*/_react.default.createElement("h2", null, props.textModal), /*#__PURE__*/_react.default.createElement("button", {
     className: "close-modal",
     onClick: function onClick() {
-      return toggleModal();
+      return toggleModal;
     }
   }, "Close"))) : null);
 }

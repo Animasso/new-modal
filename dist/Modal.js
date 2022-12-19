@@ -22,17 +22,14 @@ function Modal(props) {
   var toggleModal = function toggleModal() {
     setModal(!modal);
   };
-  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("button", {
-    className: "display",
-    onClick: toggleModal
-  }, "open"), modal ? /*#__PURE__*/_react.default.createElement("div", {
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
     className: "modal"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "modal-content"
   }, /*#__PURE__*/_react.default.createElement("h2", null, props.textModal), /*#__PURE__*/_react.default.createElement("button", {
     className: "close-modal",
     onClick: toggleModal
-  }, "Close"))) : null);
+  }, "Close"))));
 }
 var _default = Modal;
 exports.default = _default;

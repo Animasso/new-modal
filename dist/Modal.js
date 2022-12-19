@@ -28,7 +28,7 @@ function Modal(props) {
     className: "modal-content"
   }, /*#__PURE__*/_react.default.createElement("h2", null, props.textModal), /*#__PURE__*/_react.default.createElement("button", {
     className: "close-modal",
-    onClick: toggleModal()
+    onClick: toggleModal
   }, "Close"))));
 }
 var _default = Modal;

@@ -10,7 +10,7 @@ function Modal(props) {
       <div className="modal">
         <div className="modal-content">
           <h2>{props.textModal}</h2>
-          <button className="close-modal" onClick={toggleModal()}>
+          <button className="close-modal" onClick={toggleModal}>
             Close
           </button>
         </div>

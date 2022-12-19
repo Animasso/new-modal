@@ -22,7 +22,7 @@ function Modal(props) {
   var toggleModal = function toggleModal() {
     setModal(!modal);
   };
-  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, modal ? /*#__PURE__*/_react.default.createElement("div", {
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
     className: "modal"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "modal-content"
@@ -31,7 +31,7 @@ function Modal(props) {
     onClick: function onClick() {
       return toggleModal;
     }
-  }, "Close"))) : null);
+  }, "Close"))));
 }
 var _default = Modal;
 exports.default = _default;
